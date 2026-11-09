@@ -1,0 +1,59 @@
+{
+  "jar": "dedsafio3-0.0.9-forge-1.20.1 (1)(1).jar",
+  "total_clases_mod": 711,
+  "procedimientos": 157,
+  "busqueda_de_referencias": {
+    "BORG_EXTRACTOR": [
+      "net/mcreator/dedsafio3/init/Dedsafio3ModItems.class",
+      "net/mcreator/dedsafio3/init/Dedsafio3ModTabs.class",
+      "net/mcreator/dedsafio3/item/BorgExtractorItem.class"
+    ],
+    "LIMBO_EXTRACTOR": [
+      "net/mcreator/dedsafio3/init/Dedsafio3ModItems.class",
+      "net/mcreator/dedsafio3/init/Dedsafio3ModTabs.class",
+      "net/mcreator/dedsafio3/item/LimboExtractorItem.class"
+    ],
+    "NEREIDA_EXTRACTOR": [
+      "net/mcreator/dedsafio3/init/Dedsafio3ModItems.class",
+      "net/mcreator/dedsafio3/init/Dedsafio3ModTabs.class",
+      "net/mcreator/dedsafio3/item/NereidaExtractorItem.class"
+    ],
+    "BorgExtractorItem": [
+      "net/mcreator/dedsafio3/init/Dedsafio3ModItems.class",
+      "net/mcreator/dedsafio3/item/BorgExtractorItem.class"
+    ],
+    "LimboExtractorItem": [
+      "net/mcreator/dedsafio3/init/Dedsafio3ModItems.class",
+      "net/mcreator/dedsafio3/item/LimboExtractorItem.class"
+    ],
+    "NereidaExtractorItem": [
+      "net/mcreator/dedsafio3/init/Dedsafio3ModItems.class",
+      "net/mcreator/dedsafio3/item/NereidaExtractorItem.class"
+    ]
+  },
+  "analisis_de_items": {
+    "BorgExtractorItem": {
+      "returncode": 0,
+      "durability_200": true,
+      "references_filled": false,
+      "tooltip_kill": true,
+      "inv_tick": true
+    },
+    "LimboExtractorItem": {
+      "returncode": 0,
+      "durability_200": true,
+      "references_filled": false,
+      "tooltip_kill": true,
+      "inv_tick": true
+    },
+    "NereidaExtractorItem": {
+      "returncode": 0,
+      "durability_200": true,
+      "references_filled": false,
+      "tooltip_kill": true,
+      "inv_tick": true
+    }
+  },
+  "conclusion": "Los tres extractores especiales solo aparecen referenciados en sus clases de item, registro y pestañas creativas. No se halló una referencia a sus IDs de registro dentro de las clases de procedimientos originales. Esto NO demuestra que sea imposible cargarlos: podría existir lógica dinámica u otra ruta; no se debe inventar un evento de carga.",
+  "estado_compilacion": "No compilado ni probado"
+}

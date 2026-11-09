@@ -1,0 +1,12 @@
+{
+  "version": "1.21.1",
+  "old_recipe_count": 45,
+  "migrated_recipe_count": 43,
+  "converted_result_item_to_id": 42,
+  "nbt_recipes_deferred": [
+    "nether_extractor_recipe.json",
+    "overworld_extractor_recipe.json"
+  ],
+  "java_compiled": false,
+  "tested_in_game": false
+}

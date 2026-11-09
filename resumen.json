@@ -1,0 +1,22 @@
+{
+  "class_top_level": 503,
+  "assets_files": 766,
+  "data_files": 71,
+  "forge_only_data": 1,
+  "class_category_counts": {
+    "root": 1,
+    "block": 21,
+    "client": 53,
+    "command": 24,
+    "enchantment": 2,
+    "entity": 61,
+    "events": 1,
+    "init": 16,
+    "item": 135,
+    "network": 11,
+    "potion": 21,
+    "procedures": 154,
+    "recipes": 1,
+    "world": 2
+  }
+}

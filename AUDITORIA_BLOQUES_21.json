@@ -1,0 +1,191 @@
+[
+  {
+    "id": "dedsafio3:reforced_glass",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:batidora_legendaria",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "orientacion horizontal y colision vacia recuperadas; contorno pendiente"
+  },
+  {
+    "id": "dedsafio3:bloque_dilitio",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:runa_red",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "orientacion horizontal y colision vacia recuperadas; contorno pendiente"
+  },
+  {
+    "id": "dedsafio3:runa_celest",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "orientacion horizontal y colision vacia recuperadas; contorno pendiente"
+  },
+  {
+    "id": "dedsafio3:runa_rose",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "orientacion horizontal y colision vacia recuperadas; contorno pendiente"
+  },
+  {
+    "id": "dedsafio3:runa_yellow",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "orientacion horizontal y colision vacia recuperadas; contorno pendiente"
+  },
+  {
+    "id": "dedsafio3:piedrapulidadesueloextrano",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:piedra_tintadaextrana",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:nereida_ore",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:raiz",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:gray_block",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:rusty_wall_block",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:epitelio_plano_estratificado_no_queratinizado",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:gray_stair_block",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:polished_limbo_block",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:polished_limbo_stair_block",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:polished_limbo_slab",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:test_rng_block",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": false,
+    "compilacion_verificada": false,
+    "notas": "RNG click derecho: 100-999, verificado por bytecode"
+  },
+  {
+    "id": "dedsafio3:rusty_wall_stairs",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  },
+  {
+    "id": "dedsafio3:rusty_wall_slabs",
+    "registrado": true,
+    "blockstate": true,
+    "modelo_item": true,
+    "pendiente_logica_original": true,
+    "compilacion_verificada": false,
+    "notas": "pendiente comprobacion"
+  }
+]

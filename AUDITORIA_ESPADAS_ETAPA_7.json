@@ -1,0 +1,43 @@
+{
+  "source": "JAR Forge 1.20.1, javap -c -p en clases de Item y Tier",
+  "swords": {
+    "healingsword": {
+      "durability": 2032,
+      "mining_speed": 4.0,
+      "tier_attack_bonus": 5.0,
+      "sword_base_damage_added": 3,
+      "attack_speed_modifier": -2.4,
+      "original_mining_level": 4,
+      "enchantability": 2,
+      "repair_ingredient": "EMPTY",
+      "post_hit": "OnhitProcedure; enchantment LEECHING_ASPECT required; NOT PORTED"
+    },
+    "ice_sword": {
+      "durability": 1561,
+      "mining_speed": 8.0,
+      "tier_attack_bonus": 5.0,
+      "sword_base_damage_added": 3,
+      "attack_speed_modifier": -2.4,
+      "original_mining_level": 0,
+      "enchantability": 10,
+      "repair_ingredient": "EMPTY",
+      "post_hit": "OnhitFreezingProcedure; enchantment FREEZING_ASPECT required; NOT PORTED"
+    },
+    "espada": {
+      "durability": 860,
+      "mining_speed": 4.0,
+      "tier_attack_bonus": 2.0,
+      "sword_base_damage_added": 3,
+      "attack_speed_modifier": -2.4,
+      "original_mining_level": 4,
+      "enchantability": 2,
+      "repair_ingredient": "EMPTY",
+      "post_hit": "no overridden postHit method"
+    }
+  },
+  "notes": [
+    "Fabric vanilla ToolMaterial 1.21.1 has no mining level getter; used diamond inverse tag temporarily. Original mining level retained in record but not wired to block tags.",
+    "Sword item attributes now sourced from bytecode; custom enchantments and on-hit effects are NOT yet ported.",
+    "Untested: Gradle is not available in execution environment; no build succeeded."
+  ]
+}

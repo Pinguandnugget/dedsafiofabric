@@ -1,0 +1,48 @@
+{
+  "source": "dedsafio3-0.0.9-forge-1.20.1.jar",
+  "classes": [
+    "OnhitProcedure",
+    "OnhitFreezingProcedure",
+    "LeechingAspectEnchantment",
+    "FreezingAspectEnchantment"
+  ],
+  "healing": {
+    "condition": "attacker mainhand holds leeching_aspect enchanted item",
+    "counter_key": "attacker",
+    "trigger": "when previous count is 1, i.e. 2nd eligible hit",
+    "effect": "regeneration",
+    "duration_ticks": 25,
+    "amplifier": 1,
+    "particles": "heart",
+    "particle_loops": 5
+  },
+  "freezing": {
+    "condition": "attacker mainhand holds freezing_aspect enchanted item",
+    "counter_key": "target",
+    "trigger": "when previous count modulo 2 is 1",
+    "fire": "extinguish on every eligible hit",
+    "frozen_ticks": 50,
+    "effect": "slowness",
+    "duration_ticks": 50,
+    "amplifier": 1,
+    "particles": "snowflake",
+    "particle_loops": 5
+  },
+  "enchantments": {
+    "max_level": 2,
+    "rarity": "very rare",
+    "applicable_to_original": [
+      "healingsword",
+      "ice_sword"
+    ],
+    "books_allowed": false,
+    "treasure": false,
+    "note": "JSON costs and weight are provisional because Forge class did not override costs; needs verification"
+  },
+  "deviations": [
+    "WeakHashMap instead of HashMap to avoid memory leak; transient counters still reset on restart.",
+    "Freezing in original indexes by target, not attacker: fights sharing a target share counter.",
+    "1.21.1 enchantments are data driven and cannot be ported by copying Forge enchantment class."
+  ],
+  "verification": "not compiled or game-tested"
+}

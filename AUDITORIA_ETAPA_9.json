@@ -1,0 +1,22 @@
+{
+  "status": "STATIC_AUDIT_ONLY_NOT_COMPILED",
+  "minecraft": "1.21.1",
+  "java": "21",
+  "registered_plain_item_ids": 142,
+  "registered_block_ids": 21,
+  "duplicate_item_ids": [],
+  "overlap_item_vs_block_ids": [],
+  "json_files_checked": 490,
+  "invalid_json": [],
+  "loot_table_paths_migrated": 23,
+  "missing_item_models_count": 0,
+  "missing_item_models_sample": [],
+  "missing_blockstates": [],
+  "limitations": [
+    "No Gradle installed",
+    "No Fabric/Minecraft Maven dependencies cached",
+    "Network DNS unavailable; Java compilation not executed",
+    "Resource-path and JSON verification do not demonstrate functional gameplay",
+    "Enchantment, entity, block mechanics still incomplete"
+  ]
+}

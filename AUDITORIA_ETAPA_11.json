@@ -1,0 +1,22 @@
+{
+  "etapa": 11,
+  "recetas_activas": 45,
+  "extractores_durabilidad": 200,
+  "recetas_extractores": {
+    "nether_extractor_recipe": {
+      "id": "dedsafio3:nether_extractor",
+      "count": 1,
+      "components": {
+        "minecraft:damage": 200
+      }
+    },
+    "overworld_extractor_recipe": {
+      "id": "dedsafio3:overworld_extractor",
+      "count": 1,
+      "components": {
+        "minecraft:damage": 200
+      }
+    }
+  },
+  "compilado": false
+}
